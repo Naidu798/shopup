@@ -1,0 +1,53 @@
+.header {
+  border-bottom: 3px solid aliceblue;
+  margin-top: 0px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+.logo-container {
+  width: 100%;
+  text-align: left;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.logo-text-container {
+  width: 100%;
+  text-align: center;
+}
+
+.logo-text {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+.icons {
+  color: gray;
+  font-size: medium;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+}
+.language {
+  color: rgb(55, 46, 46);
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}

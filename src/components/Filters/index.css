@@ -1,0 +1,48 @@
+.filters-menu {
+  padding: 10px 10px 20px 0px;
+  width: 25vw;
+  border-right: 3px solid aliceblue;
+}
+.customize-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(172, 165, 165);
+}
+.customize-checkbox {
+  height: 15px;
+  width: 15px;
+}
+.customize-label {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.filter-options {
+  list-style-type: none;
+}
+.filter-item {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(172, 165, 165);
+}
+.filter-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unselect-all {
+  color: rgb(172, 168, 168);
+  text-decoration: underline;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+.filter-option {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

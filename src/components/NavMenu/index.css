@@ -1,0 +1,26 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 5vw;
+  text-transform: uppercase;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav-item {
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
